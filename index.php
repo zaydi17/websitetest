@@ -4,7 +4,10 @@
   <h1> PHP Test </h1>
 <?php
   $x = "<b>Text</b>";
-echo "Dieser Text wird mit php ausgegeben: ".$x;
+  for($i=1; $i < 10; $i++){
+    echo "Dieser Text wird mit php ausgegeben: ".$x.$i;
+    echo"\n";
+  }
 ?>
 
 </body>
