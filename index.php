@@ -6,7 +6,7 @@
   $x = "<b>Text</b>";
   for($i=1; $i < 10; $i++){
     echo "Dieser Text wird mit php ausgegeben: ".$x.$i;
-    echo"\n";
+    echo"<br>";
   }
 ?>
 
