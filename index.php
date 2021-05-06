@@ -3,7 +3,8 @@
 <body>
 
 <?php
-echo "My first PHP script!";
+  $x = "Text";
+echo "My first PHP script!".$x;
 ?>
 
 </body>
