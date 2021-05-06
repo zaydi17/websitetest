@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+  <h1> PHP Test </h1>
 <?php
-  $x = "Text";
-echo "My first PHP script!".$x;
+  $x = "<b>Text</b>";
+echo "Dieser Text wird mi tphp ausgegeben: ".$x;
 ?>
 
 </body>
